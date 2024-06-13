@@ -1,0 +1,28 @@
+/* Pag Especialidades*/    
+ul li{
+    list-style-type: none;
+}
+.card-conteiner-especialidades{
+    width: 100%;
+    display: flex;
+    
+}
+.card-especialidades{
+    width: 100%;
+    border-radius: 6px;
+    background-color: #fff;
+    text-align: justify;
+    margin: 20px 0;
+    
+}
+.card-especialidades:hover{
+    box-shadow: 5px 5px 10px black;
+}
+.card-especialidades-p h2{
+    font-weight: 400;
+    text-align: left;
+}
+.imagen-especialidad{
+    width: 400px ;
+    height: 200px;
+}

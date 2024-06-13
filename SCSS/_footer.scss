@@ -1,0 +1,31 @@
+/* PIE DE PAGINA */
+.logo-insta{
+    width: 30px;
+    height: 30px;
+    
+}
+.logo-face{
+    width: 30px;
+    height: 30px;
+    
+}
+.logo-wp{
+    width: 30px;
+    height: 30px;
+    
+}
+.logo-tw{
+    width: 30px;
+    height: 30px;
+
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+}
+.pie{
+    padding: 0 3px;
+}
