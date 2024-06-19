@@ -50,23 +50,26 @@
 
     <main>
         <h1>Contacto</h1>
-        <form action="" method="post">
+        <div class="form-content">
+        <form action="" method="post" class="form-content-contacto" >
             <label for="">Nombre</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Cristián">
+            <input type="text" name="nombre" id="nombre">
             <label for="">Email</label>
-            <input type="email" name="" id="" placeholder="cristian@gmail.com">
-            <p>Consulta</p>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <input type="email" name="" id="email" >
+            <label for="coments">Consulta</label>
+            <textarea name="coments" id="" cols="30" rows="5"></textarea>
             <input type="submit" value="Enviar">
         </form>
+      </div>
         <!-- Lista de Datos que va en el Centro de la Pagina-->
-       <ul>
-        <li>Direccion del Consultorio</li><img src="../Multimedia/Punto de Direccion.png" alt="Imagen de una casita" class="logo-direccion">
+       <ul class="form-content">
+        <li class="listado-contacto">Isabel la Catolica 1234</li><img src="../Multimedia/Png maps.png" alt="Imagen de una casita" class="logo-direccion">
 
-        <li>Numero de Telefono o Wathsapp</li><img src="../Multimedia/Wathsapp logo.png" alt="Imagen de Wathsapp" class="logo-wp">
+        <li class="listado-contacto">+54 341 58474565</li><img src="../Multimedia/Png whatsapp - copia.jpg" alt="Imagen de Wathsapp" class="logo-wp">
 
-        <li>Direccion de Email del local</li><img src="../Multimedia/Email logo.png" alt="Imagen de una carta/email" class="logo-email">
+        <li class="listado-contacto">Consultorioparley@gmail.com</li><img src="../Multimedia/Email logo.png" alt="Imagen de una carta/email" class="logo-email">
        </ul>
+       <nav><a href="https://www.Whatsapp.com" target="_blank"></a><img src="../Multimedia/Png whatsapp Sticky.jpg" alt="Imagen de Whatsapp" class="W-sticky"></nav>
 
     </main>
     
@@ -79,7 +82,6 @@
         <a href="https://www.twitter.com"><img src="../Multimedia/Twitter logo.png" alt="Logo Twitter" class="logo-tw pie"></a>
         <a href="https://www.Whatsapp.com"><img src="../Multimedia/Wathsapp logo.png" alt="Logo Wathsapp" class="logo-wp pie"></a>
         </nav>
-       <!-- Ver si se puede poner el WHP Stiki que se vea en todo momento-->
     </footer>
     <!-- Bootstrap Java Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
