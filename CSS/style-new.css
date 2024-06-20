@@ -1,3 +1,12 @@
+/*EJERMPLO VARIALBLE*/
+/* EJEMPLO BOX*/
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px black solid;
+}
+
+/* EJEMPLO DE PALETA DE COLORES */
 /*Para todo el Trabajo*/
 * {
   padding: 0;
@@ -276,6 +285,25 @@ h2 {
   text-align: center;
   margin: 15px 0;
   font-family: "Times New Roman", Times, serif;
+}
+
+@media (max-width: 500px) {
+  .pie {
+    display: none;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .imagen-especialidad {
+    width: 300px;
+    height: 150px;
+  }
+}
+@media (max-width: 1000px) {
+  .grilla {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /*# sourceMappingURL=style-new.css.map */

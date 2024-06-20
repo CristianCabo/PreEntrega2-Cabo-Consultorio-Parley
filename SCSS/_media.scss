@@ -1,0 +1,20 @@
+@media (max-width:500px){
+    .pie{
+        display: none;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .imagen-especialidad{
+        width: 300px ;
+        height: 150px;
+    }
+}
+@media (max-width:1000px){
+    .grilla{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+
