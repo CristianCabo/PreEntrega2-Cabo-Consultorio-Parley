@@ -1,16 +1,14 @@
 /*Pag Contacto*/
 .form-content{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    
+    margin: 30px 20px 20px 30px;
+    justify-content: center; 
 }
 .form-content-contacto{
     background: linear-gradient(
         50deg,
-        rgba(40,42,55,0.9) 50%,
-        rgba(40,42,55,0.4)),
+        rgba(255, 228, 196, 0.9) 50%,
+        rgba(255, 228, 196,0.4)),
         url(../Multimedia/Foto\ Consultorio.jpg);
         border: 1px black solid;
         background-position: center;
@@ -63,4 +61,9 @@ input, textarea{
     bottom: 30%;
     right: 0;
 }
-    
+.maps{
+    width: 400px;
+    height: 468.5px;
+    border-radius: 10px;
+    margin-left: 40px;
+}

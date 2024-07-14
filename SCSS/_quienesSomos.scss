@@ -8,5 +8,23 @@
     margin-bottom: 30px;
 }
 .quienes-somos{
- display: flex;   
+ display: flex;
+ margin-top: 30px;
+   
+}
+.img-quienessomos1{
+    float: left;
+    width: 350px;
+    height: 350px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.img-quienessomos2{
+    float: inline-start;
+    width: 350px;
+    height: 350px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
 }
